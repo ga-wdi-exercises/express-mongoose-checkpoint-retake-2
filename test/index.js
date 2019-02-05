@@ -3,6 +3,7 @@ const expect = require("chai").expect
 const http = require("chai-http")
 
 const package = require("../package.json")
+app.set("view engine", "hbs")
 
 chai.use(http)
 
