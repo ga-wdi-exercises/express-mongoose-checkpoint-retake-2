@@ -1,0 +1,18 @@
+{{#if quests}}
+    <ul class="quests">
+        {{#each quests}}
+        <li><div>
+                Title: {{title}}
+            </div>
+            <div>
+                Quest Giver: {{quest_giver}}
+            </div>
+            <div>
+                Rewards: {{rewards}}
+            </div>
+            <div>
+                Locations: {{locations}}
+            </div>
+        {{/each}}
+    </ul>
+{{/if}}
