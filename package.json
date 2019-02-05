@@ -1,0 +1,19 @@
+{
+  "name": "checkpoint-express-mongoose",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --exit test/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "*",
+    "chai-http": "^4.2.0",
+    "mocha": "*",
+    "mocha-junit-reporter": "*"
+  }
+}
